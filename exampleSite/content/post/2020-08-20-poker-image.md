@@ -13,7 +13,7 @@ tags:
   - win
   - login
   - register
-author: Poker
+author: Empty dude
 ---
 ![](/img/poker.jfif "Poker image ")
 
