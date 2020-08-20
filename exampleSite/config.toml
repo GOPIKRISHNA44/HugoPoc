@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://www.example.com"
-title = "Persian"
+title = "Games"
 theme = "HugoPoc"
 languageName = "En"
 languageCode = "en-us"
