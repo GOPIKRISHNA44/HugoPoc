@@ -1,9 +1,9 @@
 function makePostCall(url)
 {
     $.get(url,function(data,status){
-        console.table(data.data);
-        var arr=data.data;
-        $("#titleid").html( arr[Math.floor(Math.random() * arr.length)]["employee_name"]);
+        console.table(data);
+         var arr=data;
+         $("#titleid").html( arr[Math.floor(Math.random() * arr.length)]["name"]);
     })
 }
 

@@ -38,7 +38,7 @@ link = "plugins/http/httpconnect.js"
 
 #appurls
 [appurls]
-testurl = "http://dummy.restapiexample.com/api/v1/employees"
+testurl = "https://jsonplaceholder.typicode.com/users"
 
 
 
@@ -83,7 +83,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 
-testurl = "http://dummy.restapiexample.com/api/v1/employees"
+testurl = "https://jsonplaceholder.typicode.com/users"
 
 # Preloader
 [params.preloader]
