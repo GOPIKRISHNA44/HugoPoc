@@ -72,7 +72,7 @@ weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.jfif"
+logo = "images/logo.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"

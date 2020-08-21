@@ -9,7 +9,8 @@
           <span>{{ .PublishDate.Format "02" }}</span>
           <span>{{ .PublishDate.Format "Jan" }}</span>
         </div>
-        <h2 class="post-title">{{ .Title }}</h2>
+        <h2 class="post-title" id="titleid" style="cursor: pointer;" 
+        onclick=makePostCall({{.Site.Params.testurl}})>{{ .Title }}</h2>
       </div>
     </div>
   </div>
@@ -31,9 +32,13 @@
             </li>
             {{ end }}
           </ul>
-          <span><i class="ti-user mr-2"></i><a
+          {{/*  <span><i class="ti-user mr-2"></i><a
               href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.author }}</a></span>
-        </div>
+          */}}
+          <span><i class="ti-user mr-2"></i><a
+          onclick=makePostCall({{.Site.Params.testurl}})>{{ .Params.author }}</a></span>
+      
+            </div>
       </div>
     </div>
   </div>
